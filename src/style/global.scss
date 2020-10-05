@@ -1,0 +1,23 @@
+/*
+ * @Author: yuankai
+ * @Date: 2019-11-15 15:12:01
+ * @Description: 一些常用的全局公共样式
+ * @Description:  - ellipsis
+ * @Description:  - clearfix
+ */
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+// *zoom 是为了兼容ie6~7 触发hasLayout
+.clearfix {
+  *zoom: 1;
+}
+// 文本溢出(单行)
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

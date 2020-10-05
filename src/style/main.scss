@@ -1,0 +1,13 @@
+/*
+ * @Author: yuankai
+ * @Date: 2019-12-08 19:35:23
+ * @Description: 放置公共样式函数
+ */
+@mixin ellipsisLine($lines) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  white-space: normal !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
